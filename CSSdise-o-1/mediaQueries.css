@@ -1,0 +1,52 @@
+/*DISEÑO MOBIL FIRST */
+
+/*Dispositivos extra pequeños (teléfonos, 600 px y menos) */
+/* @media pnly screen and (max-widht: 600px) {
+    nombreDelSlecetor {
+        propiedades;
+    }
+}
+*/
+
+body {
+    background-color: lavenderblush;
+    color: brown;
+}
+h1,h2 {
+    font-size: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px;
+}
+
+/*Media queries para diseño responsivo: */
+/*Dispositivos pequeños */
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    body {
+        background-color: lavenderblush;
+        color: brown;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    img {
+        border-radius: 50px;
+        width: 20%;
+    }
+}

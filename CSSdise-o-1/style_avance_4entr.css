@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Vollkorn&display=swap');
+
+/* font-family: 'Kalam', cursive;
+font-family: 'Vollkorn', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lavenderblush;
+}
+nav {
+    background-color: lavenderblush;
+    text-align: left;
+    font-size: 20px;
+}
+
+.navItem:hover a {
+    color: lavenderblush;
+    background-color: brown;
+}
+
+/*Bordes */
+.border1 {
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+
+#subtituloRedes {
+    color: lavenderblush;
+}
+
+.menuNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 10rem;
+}
+
+h1 {
+    color: brown;
+    text-align: left;
+    font-size: 30px;
+    font-family:  'Kalam', cursive;
+}
+
+h2 {
+    color: brown;
+    text-align: left;
+    font-size: 30px;
+    font-family:  'Kalam', cursive;
+}
+
+.tituloVideo {
+    background-color: lavenderblush;
+}
+
+.videoExperiencia {
+    background-color: lavenderblush;
+}
+
+.tituloTercero {
+    text-align: left;
+    font-size: 30px;
+    color: brown;
+    font-family:  'Kalam', cursive;
+}
+
+#subtituloRedes {
+    text-align: left;
+    font-size: 30px;
+    color: brown;
+    font-family:  'Kalam', cursive
+}
+
+.cardCpdigo {
+    width: 15rem;
+    margin-top: 5rem;
+}
+
+li {
+    background-color: lavenderblush;
+    text-align: left;
+    font-size: 20px;
+}
+
+p {
+    text-transform: lowercase;
+}
+
+h4 {
+    color: brown;
+    text-align: left;
+    font-size: 70px;
+    font-family:  'Kalam', cursive;
+    margin-top: 2rem;
+}
+
+#Ganado {
+    font-size: 20px;
+    text-align: left;
+}
+
+#Especificaciones {
+    font-size: 20px;
+    text-align: left;
+}
+
+#Garantia {
+    font-size: 20px;
+    text-align: left;
+}
+
+h5  {
+    color: brown;
+    text-align: left;
+    font-size: 30px;
+    font-family:  'Kalam', cursive;
+}
+
+.terceraImagen {
+    transition: 5s;
+    width: 2rem;
+    height: 2rem;
+    background-color: lavenderblush;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+}
+.terceraImagen:hover {
+    width: 2rem;
+    height: 2rem;
+    color: lavenderblush;
+    transform: rotate(180deg);
+}
+.cuartaImagen {
+    transition: 5s;
+    width: 2rem;
+    height: 2rem;
+    background-color: lavenderblush;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+}
+
+.cuartaImagen:hover {
+    width: 2rem;
+    height: 2rem;
+    color: lavenderblush;
+    transform: rotate(180deg);
+}
+
+.quintaImagen {
+    transition: 5s;
+    width: 2rem;
+    height: 2rem;
+    background-color: lavenderblush;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+}
+.quintaImagen:hover {
+    width: 2rem;
+    height: 2rem;
+    color: lavenderblush;
+    transform: rotate(180deg);
+}
+
+.footerIndex {
+    background-color: lavenderblush;
+}
+
+.parrafoSegundo {
+    background-color: lavenderblush;
+    border: 1px solid lavenderblush;
+    width: 1300px;
+    height: 20px;
+}
+
+.carrito {
+    position: fixed;
+    width: 7rem;
+    nav-right: 90rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    body {
+        background-color: lavenderblush;
+    }
+    nav {
+            background-color: lavenderblush;
+            text-align: left;
+            font-size: 20px;
+        }
+        
+    .navItem:hover a {
+            color: lavenderblush;
+            background-color: brown;
+        }
+
+    .border1 {
+            border: 1px solid brown;
+            border-radius: 20px;
+        }
+        
+    #subtituloRedes {
+            color: lavenderblush;
+        }
+        
+    .menuNav {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    .logo {
+            width: 10rem;
+        }        
+}
+@media only screen and (min-width: 320px) and (max-width: 500px)  {
+    body {
+        background-color: lavenderblush;
+    }
+    
+    h2 {
+    color: brown;
+    text-align: left;
+    font-size: 1px;
+    font-family: 15 'Kalam', cursive;
+    }
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 1000px)  {
+    body {
+        background-color: lavenderblush;
+    }
+    .navItem {
+    display: inline;
+    background-color: lavenderblush;
+    text-align: left;
+    font-size: 17px;
+    }
+    h2 {
+    color: brown;
+    text-align: left;
+    font-size: 1px;
+    font-family: 15 'Kalam', cursive;
+    }
+}

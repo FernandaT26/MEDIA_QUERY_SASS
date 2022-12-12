@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_avance.css">
+    <title>Productos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="navItem">
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li class="navItem">
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li class="navItem">
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="navItem">
+                    <a href="./certificaciones.html">Certificaciones</a>
+                </li>
+                <li class="navItem">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li class="navItem">
+                    <a href="./sustentabilidad.html">Sustentabilidad</a>
+                </li>
+            </ul>
+        </nav>
+
+    <style>
+ 
+    .navItem {
+    display: inline;
+    background-color: lavenderblush;
+    text-align: left;
+    font-size: 20px;
+    }
+
+    </style>
+ 
+    <h1>HOVER:</h1>
+    <button class= "boton1">Comprar</button>
+
+    <style>
+        * {
+            font-size: 20px;
+        }
+        .boton1 {
+            color: brown;
+            background-color: lavenderblush;
+        }
+        .boton1:hover {
+            color: brown;
+            background-color: yellow;
+        }
+    </style>
+
+    <h2>ACTIVE:</h2>
+    <button class="boton2">Comprar</button>
+
+    <style>
+        .boton2 {
+            background-color: lavenderblush;
+        }
+        .boton1:active {
+            background-color: brown;
+        }
+    </style>
+
+    <h3>MARKER</h3>
+    <botton class="boton3">Comprar</botton>
+
+    <style>
+        .boton3 {
+            background-color: brown;
+        }
+        .boton3::marker {
+            background-color: yellow;
+        } 
+    </style>
+
+    <h4>Imagenes Productos</h4>
+    <div class="imagenesProductos">
+        <div>
+            <img class="Imagen1" src="./Diseño sin título (14).png" alt="imagen1">
+        </div>
+        <div>
+            <img class= "Imagen2" src="./Diseño sin título (15).png" alt="imagen2">
+        </div>
+        <div>
+            <img class="Imagen3" src="./Diseño sin título (16).png" alt="Imagen3">
+        </div>
+        <div>
+            <img class="Imagen4" src="./Diseño sin título (17).png" alt="Imagen4">
+        </div>
+        <div>
+            <img class="Imagen5" src="./Diseño sin título (18).png" alt="Imagen5">
+        </div>
+        <div>
+            <img class="Imagen6" src="./Diseño sin título (19).png" alt="Imagen6">
+        </div>
+    </div>
+
+    <style>
+        .Imagen1 {
+            width: 300px;
+        }
+        .Imagen2 {
+            width: 300px;
+        }
+        .Imagen3 {
+            width: 300px;
+        }
+        .Imagen4 {
+            width: 300px;
+        }
+        .Imagen5 {
+            width: 300px;
+        }
+        .Imagen6 {
+            width: 300px;
+        }
+        .imagenesProductos {
+            border: 1px solid brown
+            background-color lavenderblush;
+
+            display: grid;
+            grid-template-columns: .1fr 1fr;
+        }
+
+    
+    </style>
+</body>
+</html>
